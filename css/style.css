@@ -59,18 +59,19 @@ padding: 5px;}
 .con3 {float: left; margin-top: -287px;}
 .con4 {float: left; width: 1208px; height: 300px;
       position: relative;text-align: center;
-        margin: 0 auto;  }
-.con4wwgit  {padding: 100px;}
-.con4 .dia {position: absolute; top: 40px;}
+      }
+.con4ww   { padding: 100px; }
+.con4 .dia {position: absolute; top: 40px; left: 180px;}
 .dia img {width: 100px; }
+
 .con4 a {color: white;}
-.con4 .mem {position: absolute; top: 40px; left: 280px;}
+.con4 .mem {position: absolute; top: 40px; left: 380px;}
 .mem img {width: 100px;}
-.con4 .card1 {position: absolute; top: 40px; left: 500px;}
+.con4 .card1 {position: absolute; top: 40px; left: 580px;}
 .card1 img {width: 100px;}
-.con4 .event {position: absolute; top: 40px; left: 750px;}
+.con4 .event {position: absolute; top: 40px; left: 780px;}
 .event img {width: 100px;}
-.con4 .store {position: absolute; top: 40px; left: 900px;}
+.con4 .store {position: absolute; top: 40px; left: 980px;}
 .store img {width: 100px;}
 
 #content33  {width: 100%; height: 700px; background: #252451; float: left;}
