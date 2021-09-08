@@ -62,17 +62,17 @@ padding: 5px;}
       }
 .con4ww   { padding: 100px; }
 .con4 .dia {position: absolute; top: 40px; left: 180px;}
-.dia img {width: 100px; }
+
 
 .con4 a {color: white;}
 .con4 .mem {position: absolute; top: 40px; left: 380px;}
-.mem img {width: 100px;}
-.con4 .card1 {position: absolute; top: 40px; left: 580px;}
-.card1 img {width: 100px;}
+
+.con4 .card1 {position: absolute; top: 50px; left: 550px;}
+
 .con4 .event {position: absolute; top: 40px; left: 780px;}
-.event img {width: 100px;}
+
 .con4 .store {position: absolute; top: 40px; left: 980px;}
-.store img {width: 100px;}
+
 
 #content33  {width: 100%; height: 700px; background: #252451; float: left;}
 
