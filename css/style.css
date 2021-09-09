@@ -75,7 +75,26 @@ padding: 5px;}
 
 
 #content33  {width: 100%; height: 700px; background: #252451; float: left;}
+.contu {width: 65%; margin: 0 auto;}
+.contu > h1 {padding-top: 20px;}
+.contuu {padding-top: 50px; padding-left: 20px; position: relative;}
+.ew {width: 700px; float: right; margin-top: -430px; position: absolute; right: 27%; border-bottom: 3px solid white;}
+.ew li {font-size: 30px; color: white; }
+.ew li .ii {float: left;}
+.tr {width: 700px; float: right; margin-top: -330px; position: absolute; right: 27%;}
+.tr li {font-size: 15px; color: white;}
+.tr li .nm {float: left;}
+.trr {width: 700px; float: right; margin-top: -290px; position: absolute; right: 27%;}
+.trr li {font-size: 15px; color: white;}
+.tr li .nmm {float: left;}
 
-#content4  {width: 100%; height: 550px; background: lightgoldenrodyellow; float: left;}
+#content4  {width: 100%; height: 650px; background: white; float: left; position: relative;}
+.contb {width: 65%; margin: 0 auto; position: absolute; left: 18%; top: 15%;}
+.contb .im {float: left; width: 15%; padding-right: 20px;}
+.contb .im img {width: 180px; height: 180px;}
+.vv {position: absolute; top: -35%; color: #252451;}
+.coii {width: 100%; height: 50px;  float: left; position: absolute; top: 50%;}
+.coii1 {width: 65%; margin: 0 auto;}
+.coii1 li {float: left; padding-right: 25px; padding-top: 10px;}
 
 #footer {width: 100%; height: 230px; background: lightgoldenrodyellow; float: left;}
