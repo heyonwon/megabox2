@@ -175,5 +175,6 @@ hgroup h4 a{
 .coii1 {width: 65%; margin: 0 auto;}
 .coii1 li {float: left; padding-right: 25px; padding-top: 10px;}
 
-#footer {width: 100%; height: 230px; float: left; }
+#footer {width: 100%; height: 230px; float: left;   }
 .footw {width: 75%; margin: 0 auto;}
+.footw p {color: black;}
