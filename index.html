@@ -64,53 +64,135 @@
         </header>
             </header>
        </header>
-       <section id="slide" class="clearfix">
-           <nav class="box">
-              <ul class="clearfix">
-                  <li ><a href="#">박스오피스</a></li>
-                  <li><a href="#">더 많은 영화 보기
-                      <span class="span4">&plus;</span>
-                  </a></li>
-              </ul>
-           </nav>
-           <div class="slidelist" class="clearfix">
-              <div class="slideimg" class="clearfix">
-                  <img src="images/포스터1.jpg" alt="영화포스터1">
-                  <div class="span" class="clearfix">
-                  <span class="span1" >3.8k</span> 
+       <section id="main">
+           <article>
+            <hgroup>
+                <h3>박스오피스</h3>
+                <h4><a href="#">더 많은 영화보기 <span class="plus">&plus;</span></a></h4>
+            </hgroup>
+
+            <div class="boxwrap">
+            <ol id="ol">
+                <li>
+                   
+            <div class="boximg">
+                   
+                
+                  <div class="boxa">
+                     
+                    <a href="#">
+                        <p>아직 만난 적 없는 너를, 찾고 있어</p>
+                        <p>천년 만에 다가오는 혜성 기적이 시작된다</p>
+                        <p>도쿄에 사는 소년 ‘타키’와 시골에 사는 소녀 ‘미츠하’는</p>
+                        <div class="reviews">
+                            <hr>
+                            관람평 <span class="score">8.8</span>
+                        </div>
+                    </a>
                 </div>
-                <div class="btn">
-                    <a href="#">예매</a>
-               </div>
-              </div>
-              <div class="slideimg" class="clearfix">
-                  <img src="images/포스터3.jpg" alt="영화포스터2">
-                  <div class="span" class="clearfix">
-                    <span class="span1" >3.8k</span> 
-                  </div>
-                  <div class="btn">
-                    <a href="#">예매</a>
-               </div>
-              </div>
-              <div class="slideimg" class="clearfix">
-                  <img src="images/포스터2.jpg" alt="영화포스터3">
-                  <div class="span" class="clearfix">
-                    <span class="span1" >3.8k</span> 
-                  </div>
-                  <div class="btn">
-                    <a href="#">예매</a>
-               </div>
-              </div>
-              <div class="slideimg" class="clearfix">
-                  <img src="images/포스터4.jpg" alt="영화포스터4">
-                  <div class="span" class="clearfix">
-                    <span class="span1" >3.8k</span> 
-                  </div>
-                  <div class="btn">
-                    <a href="#">예매</a>
-               </div>
-              </div>
-           </div>
+                <img src="images/포스터1.jpg" alt="포스터1">
+            </div>
+            <div class="box-btns">
+                <a href="#" class="favorite">
+                    <div id="heart"></div>3.9k
+                </a>
+                <a href="#" class="booking">예매</a>
+            </div>
+            </li>
+            <li>
+               
+            <div class="boximg">
+                <div class="boxa">
+                    <a href="#">
+                        <p>아직 만난 적 없는 너를, 찾고 있어</p>
+                        <p>천년 만에 다가오는 혜성 기적이 시작된다</p>
+                        <p>도쿄에 사는 소년 ‘타키’와 시골에 사는 소녀 ‘미츠하’는</p>
+                        <div class="reviews">
+                            <hr>
+                            관람평 <span class="score">8.8</span>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/포스터2.jpg" alt="포스터2">
+            </div>
+            <div class="box-btns">
+                <a href="#" class="favorite">
+                    <div id="heart"></div>3.9k
+                </a>
+                <a href="#" class="booking">예매</a>
+            </div>
+        </li>
+        <li>
+            <div class="boximg">
+                <div class="boxa">
+                    <a href="#">
+                        <p>아직 만난 적 없는 너를, 찾고 있어</p>
+                        <p>천년 만에 다가오는 혜성 기적이 시작된다</p>
+                        <p>도쿄에 사는 소년 ‘타키’와 시골에 사는 소녀 ‘미츠하’는</p>
+                        <div class="reviews">
+                            <hr>
+                            관람평 <span class="score">8.8</span>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/포스터3.jpg" alt="포스터3">
+            </div>
+            <div class="box-btns">
+                <a href="#" class="favorite">
+                    <div id="heart"></div>3.9k
+                </a>
+                <a href="#" class="booking">예매</a>
+            </div>
+        </li>
+        <li>
+            <div class="boximg">
+                <div class="boxa">
+                    <a href="#">
+                        <p>아직 만난 적 없는 너를, 찾고 있어</p>
+                        <p>천년 만에 다가오는 혜성 기적이 시작된다</p>
+                        <p>도쿄에 사는 소년 ‘타키’와 시골에 사는 소녀 ‘미츠하’는</p>
+                        <div class="reviews">
+                            <hr>
+                            관람평 <span class="score">8.8</span>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/포스터4.jpg" alt="포스터4">
+            </div>
+            <div class="box-btns">
+                <a href="#" class="favorite">
+                    <div id="heart"></div>3.9k
+                </a>
+                <a href="#" class="booking">예매</a>
+            </div>
+        </li>
+    </ol>
+     </div>
+     <div id="search_extra">
+        <div id="search">
+            <form onsubmit="return false">
+                <fieldset>
+                    <legend class="blind">영화검색</legend>
+                    <input type="text" maxlength="20" placeholder="영화명을 입력해 주세요">
+                    <input type="image" src="images/ico-search-white.png" alt="검색">
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <a href="#"><img src="images/ico-schedule-main.png" alt="상영시간표">상영시간표</a>
+        </div>
+        <div>
+            <a href="#"><img src="images/ico-boxoffice-main.png" alt="박스오피스">박스오피스</a>
+        </div>
+        <div>
+            <a href="#"><img src="images/ico-quick-reserve-main.png" alt="빠른예매">빠른예매</a>
+        </div>
+    </div>
+    <div id="mouse">
+        <img src="images/ico-mouse.png" alt="마우스 스크롤">
+    </div>
+</div>
+           </article>
        </section>
        <section id="contents" class="clearfix">
         <div class="contw" class="clearfix">
